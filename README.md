@@ -30,3 +30,6 @@ Procuro manter explícito o caminho entre entrada, estado, modelo, ferramenta, v
 - [icaroglauco.online](https://icaroglauco.online)
 - [@glaucodeveloper](https://github.com/glaucodeveloper)
 - [icaroglaucooliveira@gmail.com](mailto:icaroglaucooliveira@gmail.com)
+
+
+[Registro desta atualização](PORTFOLIO-UPDATE.md).
