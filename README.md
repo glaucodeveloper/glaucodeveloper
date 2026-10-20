@@ -14,6 +14,7 @@ Construo sistemas em que modelos, ferramentas, estado e interface participam do 
 | [Glauish Crown](https://github.com/glaucodeveloper/glauish-crown) | Protótipo Nim para estudos BNCC com runtime RLM, workspace, ferramentas, traces e REPL. |
 | [Nim DSPy Modules](https://github.com/glaucodeveloper/nim-dspy-modules) | Módulos DSPy-like em Nim que combinam Needle, validação de chamadas de ferramenta e execução local. |
 | [OKF Forge](https://github.com/glaucodeveloper/okf-forge) | Studio de conhecimento BNCC com 730 habilidades e documentos OKF associados; inclui [relatório técnico](https://github.com/glaucodeveloper/okf-forge/blob/main/PRODUCTION_REPORT.md). |
+| [JUCEB Conhecimentos](https://github.com/glaucodeveloper/juceb-conhecimentos) | Especialidade Cognoscere Metis para pesquisa empresarial e fiscal na Bahia; 86 referências, 42 mapas OKF e corpus em curadoria, com memórias Metis pendentes. |
 | [Maximus — Central Local de Engenharia](https://github.com/glaucodeveloper/maximus-assistente-deredelocal) | Aplicação local para documentos técnicos, conhecimento OKF, tarefas e assistência por modelos executados na máquina. |
 | [Explorador de Licitações da Bahia](https://github.com/glaucodeveloper/explorador-licitacoes-ba-source) | Ingestão local de dados oficiais, API de consulta e interface para busca e análise de processos licitatórios. |
 | [Cognoscere](https://github.com/glaucodeveloper/cognoscere) | Protótipo público de aprendizagem por competências, conteúdos e atividades; o README documenta seus limites de produção. |
