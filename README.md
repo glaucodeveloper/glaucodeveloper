@@ -2,11 +2,13 @@
 
 ### Reconstructive linguistic re-education
 
-My work grows from a personal experience of **reconstructive linguistic re-education**: sustained engagement with near-raw, almost-pure language through LLM use reshaped how I think and use language. It showed me the potency of language in deliberate use. That experience informs my focus on **rapid creative development**: using language to turn ideas into working B2B applications quickly, with a framework-agnostic architecture that brings foundation models, business-system models, and persistent memory together.
+My work grows from a personal experience of **reconstructive linguistic re-education**: sustained engagement with near-raw, almost-pure language through LLM use reshaped how I think and use language.
+
+That shift gave language a more powerful creative role for me. I use it to articulate intent, connect concepts, and shape ideas into system structures and workflows. My current direction applies this expressive power to rapid B2B system creation, bringing foundation models, business-system models, and persistent memory together in framework-agnostic architectures.
 
 ```mermaid
 flowchart TB
-  RAW["Near-raw, almost-pure<br/>language"] --> RE["Personal linguistic re-education<br/>my thinking and language practice"] --> USE["More potent, deliberate<br/>language use"] --> DIRECTION["Rapid creative development<br/>framework-agnostic B2B apps"]
+  RAW["Near-raw, almost-pure<br/>language"] --> RE["Personal linguistic re-education<br/>my thinking and language practice"] --> POWER["Expanded expressive power<br/>articulate · connect · compose"] --> DIRECTION["System creation<br/>idea → structure → workflow"]
 
   subgraph B2B["B2B operating context"]
     FM["Foundation model"]
@@ -30,7 +32,7 @@ flowchart TB
   classDef workflow fill:#edf7f2,stroke:#4f8d72,color:#173c2c,stroke-width:1.5px;
   class RAW source;
   class RE reconstruction;
-  class USE,DIRECTION,FM,SM,MEM concept;
+  class POWER,DIRECTION,FM,SM,MEM concept;
   class APP app;
   class FLOW workflow;
 ```
