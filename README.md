@@ -1,29 +1,34 @@
 # Ícaro Glauco
 
-### Autonomous AI for practical B2B work
+### Reconstructive linguistic re-education for capable AI
 
-My current work explores how foundation models, explicit business-system models, and persistent memory can operate together inside autonomous B2B applications. The architecture is **framework-agnostic**; the focus is the coordination of these concepts in real business workflows.
+At the center of my work is **reconstructive linguistic re-education**: developing an LLM from its raw, near-baseline language capability toward useful, domain-grounded performance. The broader direction joins that capability with business-system models and persistent memory in **framework-agnostic B2B applications**.
 
 ```mermaid
-flowchart LR
+flowchart TB
+  RAW["Raw, near-baseline<br/>LLM capability"] --> RE["Reconstructive linguistic<br/>re-education"] --> CAP["Useful, domain-grounded<br/>language capability"]
+
   subgraph B2B["B2B operating context"]
-    FM["Foundation model<br/>interpretation and generation"]
     SM["System model<br/>business state and rules"]
     MEM["Persistent memory<br/>continuity over time"]
     APP["Autonomous application<br/>framework-agnostic"]
     FLOW["Business workflows<br/>tools, review, outcomes"]
 
-    FM --> APP
+    CAP --> APP
     SM --> APP
     MEM <--> APP
     APP --> FLOW
     FLOW --> MEM
   end
 
+  classDef source fill:#f2f3f5,stroke:#818894,color:#252a33,stroke-width:1.5px;
+  classDef reconstruction fill:#fff1df,stroke:#c47b26,color:#57350e,stroke-width:2px;
   classDef concept fill:#edf3ff,stroke:#5271b8,color:#18294b,stroke-width:1.5px;
   classDef app fill:#213d68,stroke:#213d68,color:#ffffff,stroke-width:2px;
   classDef workflow fill:#edf7f2,stroke:#4f8d72,color:#173c2c,stroke-width:1.5px;
-  class FM,SM,MEM concept;
+  class RAW source;
+  class RE reconstruction;
+  class CAP,SM,MEM concept;
   class APP app;
   class FLOW workflow;
 ```
