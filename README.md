@@ -1,36 +1,45 @@
 # Ícaro Glauco
 
-**Engenharia de software aplicada a IA, agentes e produtos digitais.**
+### Autonomous AI for practical B2B work
 
-Construo sistemas em que modelos, ferramentas, estado e interface participam do mesmo fluxo executável. Trabalho principalmente com Nim, JavaScript e TypeScript, de aplicações locais a produtos web.
+My current work explores how foundation models, explicit business-system models, and persistent memory can operate together inside autonomous B2B applications. The architecture is **framework-agnostic**; the focus is the coordination of these concepts in real business workflows.
 
-[Site pessoal](https://icaroglauco.online) · [Repositórios](https://github.com/glaucodeveloper?tab=repositories) · [E-mail](mailto:icaroglaucooliveira@gmail.com)
+```mermaid
+flowchart LR
+  subgraph B2B["B2B operating context"]
+    FM["Foundation model<br/>interpretation and generation"]
+    SM["System model<br/>business state and rules"]
+    MEM["Persistent memory<br/>continuity over time"]
+    APP["Autonomous application<br/>framework-agnostic"]
+    FLOW["Business workflows<br/>tools, review, outcomes"]
 
-## Projetos em destaque
+    FM --> APP
+    SM --> APP
+    MEM <--> APP
+    APP --> FLOW
+    FLOW --> MEM
+  end
 
-| Projeto | O que demonstra |
+  classDef concept fill:#edf3ff,stroke:#5271b8,color:#18294b,stroke-width:1.5px;
+  classDef app fill:#213d68,stroke:#213d68,color:#ffffff,stroke-width:2px;
+  classDef workflow fill:#edf7f2,stroke:#4f8d72,color:#173c2c,stroke-width:1.5px;
+  class FM,SM,MEM concept;
+  class APP app;
+  class FLOW workflow;
+```
+
+## Current project work
+
+| Project | What is taking shape |
 | --- | --- |
-| [GlaucoPlastic](https://github.com/glaucodeveloper/plasticglauco) | Framework experimental em Nim para aplicações desktop e web, DSL compilada por macros, estado, ORM e agentes locais. |
-| [Glauish Crown](https://github.com/glaucodeveloper/glauish-crown) | Protótipo Nim para estudos BNCC com runtime RLM, workspace, ferramentas, traces e REPL. |
-| [Nim DSPy Modules](https://github.com/glaucodeveloper/nim-dspy-modules) | Módulos DSPy-like em Nim que combinam Needle, validação de chamadas de ferramenta e execução local. |
-| [OKF Forge](https://github.com/glaucodeveloper/okf-forge) | Studio de conhecimento BNCC com 730 habilidades e documentos OKF associados; inclui [relatório técnico](https://github.com/glaucodeveloper/okf-forge/blob/main/PRODUCTION_REPORT.md). |
-| [JUCEB Conhecimentos](https://github.com/glaucodeveloper/juceb-conhecimentos) | Especialidade Cognoscere Metis para pesquisa empresarial e fiscal na Bahia; 86 referências, 42 mapas OKF e corpus em curadoria, com memórias Metis pendentes. |
-| [Maximus — Central Local de Engenharia](https://github.com/glaucodeveloper/maximus-assistente-deredelocal) | Aplicação local para documentos técnicos, conhecimento OKF, tarefas e assistência por modelos executados na máquina. |
-| [Explorador de Licitações da Bahia](https://github.com/glaucodeveloper/explorador-licitacoes-ba-source) | Ingestão local de dados oficiais, API de consulta e interface para busca e análise de processos licitatórios. |
-| [Cognoscere](https://github.com/glaucodeveloper/cognoscere) | Protótipo público de aprendizagem por competências, conteúdos e atividades; o README documenta seus limites de produção. |
-| [MacroObras](https://github.com/glaucodeveloper/macroobras) | Sistema para operação de obras, com estação administrativa, medição de campo e servidor local para equipes. |
-| [ISOCON](https://github.com/glaucodeveloper/isocon) | Site B2B com catálogo de produtos, componentes web nativos e CMS integrado ao repositório. |
-| [Audio Phone Speaker](https://github.com/glaucodeveloper/audio-phone-speaker) | Ponte de áudio duplex entre computador e Android conectado por USB/ADB. |
+| [Prumo Licitações](https://github.com/glaucodeveloper/prumo-licitacoes) | A procurement workspace that finds public notices, connects them to company profiles, and supports document review across official sources. |
+| [JUCEB Conhecimentos](https://github.com/glaucodeveloper/juceb-conhecimentos) | Curated company, tax, and fiscal knowledge for Bahia, prepared for memory-based research workflows. |
+| [Lumira](https://github.com/glaucodeveloper/lumira-frontend-cognoscere) | An interactive education and competency-learning prototype, presented through a navigable product lab. |
 
-## Como trabalho
+## Patent area
 
-Procuro manter explícito o caminho entre entrada, estado, modelo, ferramenta, validação, rastreio e interface. Uso Nim para runtimes e ferramentas compiladas; JavaScript e TypeScript para aplicações web e desktop.
+Autonomous AI applications for B2B operations with persistent memory.
 
-## Contato
+## Links
 
-- [icaroglauco.online](https://icaroglauco.online)
-- [@glaucodeveloper](https://github.com/glaucodeveloper)
-- [icaroglaucooliveira@gmail.com](mailto:icaroglaucooliveira@gmail.com)
-
-
-[Registro desta atualização](PORTFOLIO-UPDATE.md).
+[Website](https://icaroglauco.online) · [GitHub repositories](https://github.com/glaucodeveloper?tab=repositories) · [Email](mailto:icaroglaucooliveira@gmail.com)
