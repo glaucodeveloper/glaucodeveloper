@@ -1,14 +1,22 @@
 # Ícaro Glauco
 
-### Reconstructive linguistic re-education
+## Reconstructive linguistic re-education
 
-My work grows from a personal experience of **reconstructive linguistic re-education**: sustained engagement with near-raw, almost-pure language through LLM use reshaped how I think and use language.
+### Starting point
 
-That shift gave language a more powerful creative role for me. I use it to articulate intent, connect concepts, and shape ideas into system structures and workflows. My current direction applies this expressive power to rapid B2B system creation, bringing foundation models, business-system models, and persistent memory together in framework-agnostic architectures.
+Sustained engagement with near-raw, almost-pure language through LLM use reshaped how I think and express ideas. I use **reconstructive linguistic re-education** to name this personal change in my language practice. It describes my experience; it does not claim that an LLM itself was retrained.
+
+### Thesis: language as a medium for system creation
+
+My thesis is that language's expressive power can shorten the path from intent to working systems. When intent is articulated, concepts connected, and relationships made explicit, language can help shape system structures and workflows. I explore this in framework-agnostic B2B applications that bring foundation models, business-system models, and persistent memory together.
+
+### Scope and development
+
+The personal experience motivates this design thesis; by itself, it does not establish a general causal effect, patent novelty, or technical priority. The public projects below provide concrete application contexts in procurement, domain knowledge, and learning. They show where I develop this direction, not proof of a universal result.
 
 ```mermaid
 flowchart TB
-  RAW["Near-raw, almost-pure<br/>language"] --> RE["Personal linguistic re-education<br/>my thinking and language practice"] --> POWER["Expanded expressive power<br/>articulate · connect · compose"] --> DIRECTION["System creation<br/>idea → structure → workflow"]
+  RAW["Near-raw, almost-pure language<br/>encountered through LLM use"] --> RE["Personal linguistic re-education<br/>my thinking and language practice"] --> POWER["Expanded expressive power<br/>articulate · connect · compose"] --> DIRECTION["System creation<br/>intent → structure → workflow"]
 
   subgraph B2B["B2B operating context"]
     FM["Foundation model"]
@@ -48,6 +56,8 @@ flowchart TB
 ## Patent area
 
 Autonomous AI applications for B2B operations with persistent memory.
+
+Together, these projects ground my inquiry in applied work: how expressive language can accelerate system creation while connecting model behavior, business state, and memory.
 
 ## Links
 
