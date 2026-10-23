@@ -2,11 +2,11 @@
 
 ### Reconstructive linguistic re-education
 
-My work grows from a personal experience of **reconstructive linguistic re-education**: sustained engagement with near-raw, almost-pure language through LLM use reshaped how I think and use language. It showed me the potency of language in deliberate use. This experience informs my exploration of **framework-agnostic B2B applications** that bring foundation models, business-system models, and persistent memory together.
+My work grows from a personal experience of **reconstructive linguistic re-education**: sustained engagement with near-raw, almost-pure language through LLM use reshaped how I think and use language. It showed me the potency of language in deliberate use. That experience informs my focus on **rapid creative development**: using language to turn ideas into working B2B applications quickly, with a framework-agnostic architecture that brings foundation models, business-system models, and persistent memory together.
 
 ```mermaid
 flowchart TB
-  RAW["Near-raw, almost-pure<br/>language"] --> RE["Personal linguistic re-education<br/>my thinking and language practice"] --> USE["More potent, deliberate<br/>language use"] --> DIRECTION["Framework-agnostic<br/>B2B AI research"]
+  RAW["Near-raw, almost-pure<br/>language"] --> RE["Personal linguistic re-education<br/>my thinking and language practice"] --> USE["More potent, deliberate<br/>language use"] --> DIRECTION["Rapid creative development<br/>framework-agnostic B2B apps"]
 
   subgraph B2B["B2B operating context"]
     FM["Foundation model"]
